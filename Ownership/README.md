@@ -2,6 +2,9 @@
 
 Ownership, Borrowing, Lifetimes.
 
+Note: have a look at `-fno-elide-constructors` to spare you some headaches in debugging special member invocations.
+
+
 ### Tasks
 
 `pointers.cc`
@@ -24,6 +27,13 @@ Ownership, Borrowing, Lifetimes.
 - [ ] How can you copy and move a type? What do these semantics mean? When makes a move-only type sense?
 - [ ] Implement a type that you can copy. Write the call site first.
 - [ ] Implement a type that you can only move but not copy. Write the call site first.
+
+`raii.cc`
+
+- [ ] Read the docs for `std::lock_guard` and `BasicLockable` and `Mutex`
+- [ ] When is the mutex getting unlocked? Can the user influence this?
+- [ ] Implement a dummy `NoOpMutex` and a `LogMutex`
+- [ ] What is the benefit of RAII here compared to `lock` / `unlock` calls?
 
 `zero.cc`
 
