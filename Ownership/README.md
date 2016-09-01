@@ -3,6 +3,7 @@
 Ownership, Borrowing, Lifetimes.
 
 Note: have a look at `-fno-elide-constructors` to spare you some headaches in debugging special member invocations.
+Also what is `-Wdeprecated` good for?
 
 
 ### Tasks
