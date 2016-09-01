@@ -10,6 +10,7 @@ I recommend going through the examples in order.
 | Example                          | Introduces                                                                                           |
 | -------------------------------- | ---------------------------------------------------------------------------------------------------- |
 | [Warmup](Warmup/README.md)       | Gets You Started, Fundamentals                                                                       |
+| [Tooling](Tooling/README.md)     | CMake, ClangFormat, ClangTidy, Sanitizers                                                            |
 | [Ownership](Ownership/README.md) | Ownership, Lifetime, Interfaces, Special Members, Rule of Zero                                       |
 | [Optional](Optional/README.md)   | Optional for Failures                                                                                |
 | [Variant](Variant/README.md)     | Variant for Sum-Types                                                                                |
