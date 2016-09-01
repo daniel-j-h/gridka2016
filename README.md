@@ -12,6 +12,7 @@ I recommend going through the examples in order.
 | [Warmup](Warmup/README.md)       | Gets You Started, Fundamentals                                                                       |
 | [Tooling](Tooling/README.md)     | CMake, ClangFormat, ClangTidy, Sanitizers                                                            |
 | [Ownership](Ownership/README.md) | Ownership, Lifetime, Interfaces, Special Members, Rule of Zero                                       |
+| [Ranges](Ranges/README.md)       | Iterators, ranges, `std2::`                                                                          |
 | [Optional](Optional/README.md)   | Optional for Failures                                                                                |
 | [Variant](Variant/README.md)     | Variant for Sum-Types                                                                                |
 | [Concepts](Concepts/README.md)   | Concepts, Emulation, Introspection                                                                   |
