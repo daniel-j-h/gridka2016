@@ -6,16 +6,16 @@ Buildsystem, LLVM-based tools, sanitizers.
 
 `tooling.cc`
 
-- [ ] build the binary using CMake
-- [ ] use the `Makefile` generator and then try the one for `Ninja`
+- [x] build the binary using CMake
+- [x] use the `Makefile` generator and then try the one for `Ninja`
 
-- [ ] use `clang-format` to reformat the source
-- [ ] build a `compile_commands.json` compilation database
-- [ ] use `clang-tidy`'s modernize checks
+- [x] use `clang-format` to reformat the source
+- [x] build a `compile_commands.json` compilation database
+- [x] use `clang-tidy`'s modernize checks
 
-- [ ] include `boost/filesystem.hpp`
-- [ ] find Boost package and add include directory and link in Boost library
+- [x] include `boost/filesystem.hpp`
+- [x] find Boost package and add include directory and link in Boost library
 
 `sanitizer.cc`
 
-- [ ] use the sanitizers (`-fsanitize=`) to find potential issues
+- [x] use the sanitizers (`-fsanitize=`) to find potential issues
