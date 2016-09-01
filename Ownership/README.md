@@ -8,9 +8,6 @@ Also what is `-Wdeprecated` good for?
 
 ### Tasks
 
-`pointers.cc`
-
-- [ ] What are the problems here? Fix as many issues as you can think of.
 
 `ownership.cc`
 
