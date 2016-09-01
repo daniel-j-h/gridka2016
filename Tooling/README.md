@@ -6,6 +6,9 @@ Buildsystem, LLVM-based tools, sanitizers.
 
 `tooling.cc`
 
+- [ ] build the binary using CMake
+- [ ] use the `Makefile` generator and then try the one for `Ninja`
+
 - [ ] use `clang-format` to reformat the source
 - [ ] build a `compile_commands.json` compilation database
 - [ ] use `clang-tidy`'s modernize checks
