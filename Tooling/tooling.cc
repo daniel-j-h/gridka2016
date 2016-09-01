@@ -1,9 +1,12 @@
 #include <iostream>
-#include <vector>
 #include <iterator>
+#include <vector>
 
-int main() { 
+#include "boost/filesystem.hpp"
+
+int main() {
   std::vector<int> v{2, 4, 6};
 
-  for (std::vector<int>::const_iterator it = v.cbegin(), last = v.cend(); it != last; ++it) std::cout << *it << std::endl;
+  for (int it : v)
+    std::cout << it << std::endl;
 }

@@ -6,14 +6,14 @@ GCC provides an experimental gcc-concepts branch, available behind the feature f
 
 `concepts.cc`
 
-- [ ] Sort v and l descending. What do you expect? What happens and why?
-- [ ] What is the iterator concept sort relies on?
-- [ ] What kind of iterators does v and l provide, respectively?
+- [x] Sort v and l descending. What do you expect? What happens and why?
+- [x] What is the iterator concept sort relies on?
+- [x] What kind of iterators does v and l provide, respectively?
 
 `emulate.cc`
 
-- [ ] Require the right iterator category at compile time
+- [x] Require the right iterator category at compile time
 
 `introspect.cc`
 
-- [ ] Introspect member function sort and use if available
+- [x] Introspect member function sort and use if available

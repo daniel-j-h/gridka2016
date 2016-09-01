@@ -1,5 +1,5 @@
-#include <vector>
 #include <numeric>
+#include <vector>
 
 int fn(int n) {
   std::vector<int> v(n);
@@ -7,11 +7,9 @@ int fn(int n) {
   return v[n];
 }
 
-int gn(int n) {
-  return 1 << n;
-}
+int gn(int n) { return 1 << n; }
 
-int main(int argc, char** /*argv*/) {
+int main(int argc, char ** /*argv*/) {
   fn(argc);
   gn(argc);
 }
